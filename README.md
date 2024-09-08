@@ -21,6 +21,49 @@ step 5:- perform the same steps for the TEST data also becasue we have the diffe
 
 step 6:- best approach will be to find the max_depth & min_samples_split for the decisionTress but since data is hug it will run for a day. once we get the data we can pass that withing parameters for the DecisionTree
 
+![image](https://github.com/user-attachments/assets/4eb49f4b-c54a-4f32-91f2-3acaf645aaf6)
+
+Results:
+    LogisticRegression()
+************* Train ************
+Train accuracy_score 0.5102689157840568
+Train precision_score 0.5102689157840568
+Train Recall_Score 0.5102689157840568
+Train f1_score 0.5102689157840568
+************* Test ************
+Test accuracy_score 0.5284613458764725
+Test precision_score 0.5284613458764725
+Test Recall_Score 0.5284613458764725
+Test f1_score 0.5284613458764725
+******************************
+
+   DecisionTreeClassifier()
+************* Train ************
+Train accuracy_score 0.9999761787520342
+Train precision_score 0.9999761787520342
+Train Recall_Score 0.9999761787520342
+Train f1_score 0.9999761787520342
+************* Test ************
+Test accuracy_score 1.0
+Test precision_score 1.0
+Test Recall_Score 1.0
+Test f1_score 1.0
+******************************
+
+   RandomForestClassifier()
+************* Train ************
+Train accuracy_score 0.9999720997712181
+Train precision_score 0.9999720997712181
+Train Recall_Score 0.9999720997712181
+Train f1_score 0.9999720997712181
+************* Test ************
+Test accuracy_score 0.9999951995757902
+Test precision_score 0.9999951995757902
+Test Recall_Score 0.9999951995757902
+Test f1_score 0.9999951995757902
+******************************
+
+
 step 7:- check for all the models and fit the model and check the values for each test n train files.
 
 step 8:- pick the model which is having the better performance.
