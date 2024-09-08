@@ -28,20 +28,27 @@ step 8:- pick the model which is having the better performance.
 
 Results:
 
-    LogisticRegression()
+    
+LogisticRegression()
     
 ************* Train ************
 
-Train accuracy_score 0.5102689157840568
+Train accuracy_score 0.5102689157840568 
+
 Train precision_score 0.5102689157840568
+
 Train Recall_Score 0.5102689157840568
+
 Train f1_score 0.5102689157840568
 
 ************* Test ************
 
 Test accuracy_score 0.5284613458764725
+
 Test precision_score 0.5284613458764725
+
 Test Recall_Score 0.5284613458764725
+
 Test f1_score 0.5284613458764725
 
 ******************************
@@ -51,15 +58,21 @@ Test f1_score 0.5284613458764725
 ************* Train ************
 
 Train accuracy_score 0.9999761787520342
+
 Train precision_score 0.9999761787520342
+
 Train Recall_Score 0.9999761787520342
+
 Train f1_score 0.9999761787520342
 
 ************* Test ************
 
 Test accuracy_score 1.0
+
 Test precision_score 1.0
+
 Test Recall_Score 1.0
+
 Test f1_score 1.0
 
 ******************************
@@ -69,15 +82,21 @@ Test f1_score 1.0
 ************* Train ************
 
 Train accuracy_score 0.9999720997712181
+
 Train precision_score 0.9999720997712181
+
 Train Recall_Score 0.9999720997712181
+
 Train f1_score 0.9999720997712181
 
 ************* Test ************
 
 Test accuracy_score 0.9999951995757902
+
 Test precision_score 0.9999951995757902
+
 Test Recall_Score 0.9999951995757902
+
 Test f1_score 0.9999951995757902
 
 ******************************
