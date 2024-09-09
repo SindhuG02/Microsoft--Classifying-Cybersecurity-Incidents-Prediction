@@ -101,4 +101,28 @@ Test f1_score 0.9999951995757902
 
 ******************************
 
+GradientBoostingClassifier()
+
+************* Train ************
+
+Train accuracy_score 0.7443989882822303
+
+Train precision_score 0.7443989882822303
+
+Train Recall_Score 0.7443989882822303
+
+Train f1_score 0.7443989882822303
+
+************* Test ************
+
+Test accuracy_score 0.7637678012653918
+
+Test precision_score 0.7637678012653918
+
+Test Recall_Score 0.7637678012653918
+
+Test f1_score 0.7637678012653918
+
+******************************
+![image](https://github.com/user-attachments/assets/548d4dc7-2ed1-4705-bd4f-8b9678013348)
 
