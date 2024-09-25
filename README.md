@@ -28,76 +28,85 @@ step 8:- pick the model which is having the better performance.
 Based on results RandomForestClassifier() is the best option.
 Results:
 
-    
-LogisticRegression()
-    
-************* Train ************
+Results:
+    LogisticRegression()
 
-Train accuracy_score 0.5102689157840568 
+Train confusion_matrix 
+[[1034057  361593  647344]
+ [ 610290  616716  815988]
+ [ 377779  182497 1482718]]
 
-Train precision_score 0.5102689157840568
-
-Train Recall_Score 0.5102689157840568
-
-Train f1_score 0.5102689157840568
+Train accuracy_score 0.5112579870523359
+Train precision_score 0.5112579870523359
+Train Recall_Score 0.5112579870523359
+Train f1_score 0.5112579870523359
 
 ************* Test ************
 
-Test accuracy_score 0.5284613458764725
+Test confusion_matrix 
+[[461144 165372 276182]
+ [246839 304911 350948]
+ [158617  66979 677102]]
 
-Test precision_score 0.5284613458764725
-
-Test Recall_Score 0.5284613458764725
-
-Test f1_score 0.5284613458764725
+Test accuracy_score 0.5329050616411395
+Test precision_score 0.5329050616411395
+Test Recall_Score 0.5329050616411395
+Test f1_score 0.5329050616411395
 
 ******************************
 
-   DecisionTreeClassifier()
-   
+DecisionTreeClassifier()
+
 ************* Train ************
 
-Train accuracy_score 0.9999761787520342
+Train confusion_matrix 
+[[2042994       0       0]
+ [     64 2042929       1]
+ [     59      52 2042883]]
 
-Train precision_score 0.9999761787520342
-
-Train Recall_Score 0.9999761787520342
-
-Train f1_score 0.9999761787520342
+Train accuracy_score 0.9999712839750549
+Train precision_score 0.9999712839750549
+Train Recall_Score 0.9999712839750549
+Train f1_score 0.9999712839750549
 
 ************* Test ************
 
+Test confusion_matrix [[902698      0      0]
+ [     0 902698      0]
+ [     0      0 902698]]
+
 Test accuracy_score 1.0
-
 Test precision_score 1.0
-
 Test Recall_Score 1.0
-
 Test f1_score 1.0
 
 ******************************
 
-   RandomForestClassifier()
-   
+RandomForestClassifier()
+
 ************* Train ************
 
-Train accuracy_score 0.9999720997712181
+Train confusion_matrix 
+[[2042927      40      27]
+ [     33 2042929      32]
+ [     40      37 2042917]]
 
-Train precision_score 0.9999720997712181
-
-Train Recall_Score 0.9999720997712181
-
-Train f1_score 0.9999720997712181
+Train accuracy_score 0.9999658997203777
+Train precision_score 0.9999658997203777
+Train Recall_Score 0.9999658997203777
+Train f1_score 0.9999658997203777
 
 ************* Test ************
 
-Test accuracy_score 0.9999951995757902
+Test confusion_matrix
+[[902692      5      1]
+ [     4 902694      0]
+ [     2      3 902693]]
 
-Test precision_score 0.9999951995757902
-
-Test Recall_Score 0.9999951995757902
-
-Test f1_score 0.9999951995757902
+Test accuracy_score 0.9999944610489887
+Test precision_score 0.9999944610489887
+Test Recall_Score 0.9999944610489887
+Test f1_score 0.9999944610489887
 
 ******************************
 
@@ -105,25 +114,27 @@ GradientBoostingClassifier()
 
 ************* Train ************
 
-Train accuracy_score 0.7443989882822303
+Train confusion_matrix 
+[[1775430  153432  114132]
+ [ 576110 1351373  115511]
+ [ 470638  113419 1458937]]
 
-Train precision_score 0.7443989882822303
-
-Train Recall_Score 0.7443989882822303
-
-Train f1_score 0.7443989882822303
+Train accuracy_score 0.7482058194982462
+Train precision_score 0.7482058194982462
+Train Recall_Score 0.7482058194982462
+Train f1_score 0.7482058194982462
 
 ************* Test ************
 
-Test accuracy_score 0.7637678012653918
+Test confusion_matrix 
+[[791133  78057  33508]
+ [232609 624615  45474]
+ [202576  39555 660567]]
 
-Test precision_score 0.7637678012653918
-
-Test Recall_Score 0.7637678012653918
-
-Test f1_score 0.7637678012653918
+Test accuracy_score 0.7667071379353892
+Test precision_score 0.7667071379353892
+Test Recall_Score 0.7667071379353892
+Test f1_score 0.7667071379353892
 
 ******************************
-![image](https://github.com/user-attachments/assets/548d4dc7-2ed1-4705-bd4f-8b9678013348)
-![image](https://github.com/user-attachments/assets/086be99d-d5b5-479a-abc7-1cc0ada6d9b0)
 
