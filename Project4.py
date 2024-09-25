@@ -9,7 +9,7 @@ import numpy as np
 from imblearn.under_sampling import RandomUnderSampler
 #Since data is huge we can't use KNN
 # from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score,precision_score,f1_score,recall_score
+from sklearn.metrics import accuracy_score,precision_score,f1_score,recall_score,confusion_matrix
   # type: ignore
 
 warnings.filterwarnings('ignore') 
@@ -115,12 +115,15 @@ for model in models:
     test_predict=model.predict(New_X_Test)
 
     print("************* Train ************")
+    print("Train confusion_matrix",confusion_matrix(New_Y_Train,train_predict))
     print("Train accuracy_score",accuracy_score(New_Y_Train,train_predict))
     print("Train precision_score",precision_score(New_Y_Train,train_predict,average='micro'))
     print("Train Recall_Score",recall_score(New_Y_Train,train_predict,average='micro'))
     print("Train f1_score",f1_score(New_Y_Train,train_predict,average='micro'))
     
+    
     print("************* Test ************")
+    print("Test confusion_matrix",confusion_matrix(New_Y_Test,test_predict))
     print("Test accuracy_score",accuracy_score(New_Y_Test,test_predict))
     print("Test precision_score",precision_score(New_Y_Test,test_predict,average='micro'))
     print("Test Recall_Score",recall_score(New_Y_Test,test_predict,average='micro'))
